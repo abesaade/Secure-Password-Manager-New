@@ -1,0 +1,101 @@
+/* General Body Styling */
+
+
+body {
+    background-color: hotpink !important;
+}
+body {
+    background: linear-gradient(135deg, #e9f2ff, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container & Card Styling */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h2 {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #09c447;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004d99;
+}
+
+.btn-outline-danger {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+/* Form Fields */
+input.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Table Styling */
+.table {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.table thead {
+    background-color: #0066cc;
+    color: white;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Flash Message */
+.alert-success {
+    border-radius: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Edit/Delete Button Spacing */
+.mt-2 .btn {
+    margin: 2px;
+}
+
+body {
+    background: linear-gradient(135deg, #e9f2ff, #ffffff) !important;
+}
+
+h2 {
+    color: #2c3e50 !important;
+}
+
+.btn-primary {
+    background-color: #0066cc !important;
+}
+
+input.form-control {
+    background-color: #fffbe6 !important;
+    border: 2px solid #0066cc !important;
+}
